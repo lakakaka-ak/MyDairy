@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--登录界面,用LinearLayout-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+
+    <!--输入框-->
+    <EditText
+        android:id="@+id/et_userName"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center"
+        android:hint="用户名"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/translucent"
+        />
+    <!--输入框-->
+    <!--按钮-->
+    <!--显示tv register , find_psw -->
+
+    <EditText
+        android:id="@+id/et_userPwd"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/translucent"
+        android:gravity="center"
+        android:hint="输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/translucent"
+        android:text="→"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_Register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="用户注册"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp" />
+        <!--layout_weight="1" layout_width="0dp"实现均分效果-->
+
+    </LinearLayout>
+
+</LinearLayout>

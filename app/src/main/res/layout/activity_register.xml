@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--注册界面-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+    <!--三个编辑框-->
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/translucent"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint=" 请输入用户名"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/user_pwd"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/translucent"
+        android:drawablePadding="10dp"
+        android:hint=" 请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/user_pwd1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/translucent"
+        android:drawablePadding="10dp"
+        android:hint=" 请再次输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/translucent"
+        android:text="注 册"
+        android:textColor="#FFFFFF"
+
+        android:textSize="20sp"/>
+</LinearLayout>
